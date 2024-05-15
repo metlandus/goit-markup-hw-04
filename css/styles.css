@@ -129,15 +129,23 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+.hero-image {
+    object-fit: fill;
+}
 
 /* Main */
 
 /* Heading Section First Section */
 
 .heading {
-    background-color: #2e2f42;
+    background-image: url("../images/people-office\ 1.jpg");
+    background-color: rgba(46, 47, 66, 0.7);
+    background-blend-mode: overlay;
     padding: 188px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .heading .service {
     background-color: #4d5ae5;
     color: white;
@@ -171,7 +179,6 @@ ul {
     max-width: 496px;
 }
 
-
 /* Stats Section Second Section */
 
 .stats ul li .stat-p {
@@ -202,7 +209,6 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 
 /* Team Section Third Section */
 
@@ -248,7 +254,6 @@ ul {
     letter-spacing: 0.02em;
 }
 
-
 /* Portfolio Section Fourth Section */
 
 .portfolio ul .portfolio-p {
@@ -276,7 +281,6 @@ ul {
 .portfolio-h {
     margin-bottom: 8px;
 }
-
 
 /* Footer */
 
