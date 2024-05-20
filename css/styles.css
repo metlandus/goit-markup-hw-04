@@ -151,12 +151,13 @@ ul {
 /* Heading Section First Section */
 
 .heading {
-    background-image: url("../images/people-office\ 1.jpg");
-    background-color: rgba(46, 47, 66, 0.7);
-    background-blend-mode: overlay;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
     padding: 188px 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    max-width: 1440px;
 }
 
 .heading .service {
@@ -172,6 +173,7 @@ ul {
     min-width: 169px;
     height: 56px;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .heading .service:focus {
     background-color: #404bbf;
