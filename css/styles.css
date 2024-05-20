@@ -152,7 +152,7 @@ ul {
 
 .heading {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/people-office\ 1.jpg);
     padding: 188px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,6 +208,16 @@ ul {
 }
 .stats-list-item {
     width: calc((100% - 72px) / 4);
+}
+.stats .stats-list .container-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 .stat-h {
     margin-bottom: 8px;
