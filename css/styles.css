@@ -55,6 +55,8 @@ ul {
 .nav {
     display: flex;
     align-items: center;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .nav ul {
     display: flex;
@@ -68,6 +70,21 @@ ul {
 }
 .nav ul .stp {
     font-weight: 500;
+    position: relative;
+    color: #404bbf;
+}
+.nav ul .stp::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+.nav ul:first-child {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav .logo-nav .logo-studio-nav {
     color: #2e2f42;
@@ -116,6 +133,7 @@ ul {
 }
 .address .info {
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address .info:focus {
     color: #404bbf;
@@ -128,9 +146,6 @@ ul {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-}
-.hero-image {
-    object-fit: fill;
 }
 
 /* Main */
