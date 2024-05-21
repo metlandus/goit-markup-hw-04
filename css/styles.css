@@ -209,6 +209,10 @@ ul {
 .stats-list-item {
     width: calc((100% - 72px) / 4);
 }
+.icon {
+    width: 64px;
+    height: 64px;
+}
 .stats .stats-list .container-svg {
     display: flex;
     align-items: center;
