@@ -235,12 +235,9 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.icon-stats {
-    height: 64px;
-    width: 64px;
-}
 
 /* Team Section Third Section */
+
 
 .team {
     background-color: #f4f4fd;
@@ -269,8 +266,6 @@ ul {
 }
 .icon-socials {
     fill: #f4f4fd;
-    height: 16px;
-    width: 16px;
 }
 .social-media-links-item {
     width: 100%;
@@ -281,10 +276,11 @@ ul {
     align-items: center;
     justify-content: center;
 }
+.social-media-links-item:hover,
 .social-media-links-item:focus {
     background-color: #404bbf;
 }
-.social-media-links .first-link {
+.social-media>:first-child {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .members-list {
