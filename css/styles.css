@@ -145,6 +145,7 @@ ul {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    margin-right: 120px;
 }
 
 /* Main */
@@ -437,12 +438,6 @@ ul {
 .icon-footer {
     fill: #f4f4fd;
 }
-.social-media-container > :nth-child(1)  {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-container-margin {
-    margin-right: 120px;
-}
 .social-media-container > :nth-child(1) {
-    margin-right: 120px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
