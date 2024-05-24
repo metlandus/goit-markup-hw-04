@@ -280,7 +280,7 @@ ul {
 .social-media-links-item:focus {
     background-color: #404bbf;
 }
-.social-media > :first-child {
+.social-media::first-child {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .members-list {
@@ -333,10 +333,11 @@ ul {
     width: calc((100% - 48px) / 3);
 }
 .portfolio-list-item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
 }
-.portfolio-list-item::first-child {
+.portfolio-list::first-child {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-div {
@@ -372,7 +373,6 @@ ul {
 
 /* Footer */
 
-
 .footer .logo-footer:active {
     color: #404bbf;
     text-decoration: underline;
@@ -403,7 +403,7 @@ ul {
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    justify-content: space-evenly;
 }
 .social-media-p {
     font-weight: 500;
@@ -433,4 +433,13 @@ ul {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
     background-color: #31d0aa;
+}
+.footer-container-margin {
+    margin-right: 120px;
+}
+.icon-footer {
+    fill: #f4f4fd;
+}
+.footer-social-media-links::first-child {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
