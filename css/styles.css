@@ -403,8 +403,7 @@ ul {
 .footer-container {
     display: flex;
     align-items: baseline;
-    justify-content: space-evenly;,
-    margin-right: 120px;
+    justify-content: space-evenly;
 }
 .social-media-p {
     font-weight: 500;
@@ -440,4 +439,10 @@ ul {
 }
 .social-media-container > :nth-child(1)  {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-container-margin {
+    margin-right: 120px;
+}
+.social-media-container > :nth-child(1) {
+    margin-right: 120px;
 }
