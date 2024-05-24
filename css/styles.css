@@ -420,6 +420,7 @@ ul {
 .footer-social {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-link {
     width: 100%;
@@ -439,7 +440,4 @@ ul {
 }
 .icon-footer {
     fill: #f4f4fd;
-}
-.first-footer-social {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
